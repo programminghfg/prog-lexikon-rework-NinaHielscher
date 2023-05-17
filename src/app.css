@@ -1,0 +1,13 @@
+* {
+        font-family: 'Economica', Verdana, sans-serif;
+        box-sizing: border-box;
+}
+
+body {
+        margin: 0;
+}
+
+a {
+        color: black;
+        text-decoration: none;
+}
