@@ -4,6 +4,18 @@
 
 <div class="container">
         <h1>Glossar</h1>
+
+        <div class="tile-grid">
+                {#each tiles as tile}
+                        <a href={'details/' + tile.folder}>
+                                <div class="tile">
+                                        <h3>{tile.title}</h3>
+                                        <p class="tile-content">{tile.description}</p>
+                                </div>
+                        </a>
+                {/each}
+        </div>
+
 </div>
 
 <style>
