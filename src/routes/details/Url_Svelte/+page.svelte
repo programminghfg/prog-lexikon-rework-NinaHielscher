@@ -4,6 +4,7 @@
     import Groß from '$lib/img/gross.svg';
     import Protokoll from '$lib/img/protokoll.png';
     import Domainname from '$lib/img/domainname.png';
+    import '$lib/fonts/stylesheet.css';
 </script>
 
 <div class="site">
